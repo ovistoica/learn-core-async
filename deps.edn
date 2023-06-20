@@ -1,5 +1,10 @@
 {:paths ["src" "resources"]
- :deps {org.clojure/clojure {:mvn/version "1.11.1"}}
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        org.clojure/core.async {:mvn/version "1.6.673"}
+        http-kit/http-kit {:mvn/version "2.6.0"}
+        cheshire/cheshire {:mvn/version "5.11.0"}
+        org.clojure/data.xml {:mvn/version "0.2.0-alpha8"}
+        com.datastax.cassandra/cassandra-driver-core {:mvn/version "2.1.4"}}
  :aliases
  {:run-m {:main-opts ["-m" "os.learn-core-async"]}
   :run-x {:ns-default os.learn-core-async

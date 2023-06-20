@@ -4,7 +4,7 @@
 
 (def lib 'net.clojars.os/learn-core-async)
 (def version "0.1.0-SNAPSHOT")
-(def main 'os.learn-core-async)
+(def main 'os.learn-core-async-basics)
 
 (defn test "Run the tests." [opts]
   (bb/run-tests opts))
